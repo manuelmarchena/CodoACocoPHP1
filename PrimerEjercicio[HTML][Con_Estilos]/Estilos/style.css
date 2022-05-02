@@ -1,0 +1,229 @@
+    @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Unica One', sans-serif;
+        overflow-x: hidden;
+    }
+    
+    .header {
+        background-color: #3F51B5;
+        margin: 0%;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .header__div__rrss,
+    .footer__div__rrss {
+        width: 100vw;
+        height: 8vh;
+        text-align: left;
+        background-color: #757575;
+    }
+    
+    .header__div__rrss img,
+    .footer__div__rrss__img {
+        max-width: 3vw;
+        max-height: auto;
+        min-height: 3vw;
+        padding-bottom: 2vh;
+        padding-top: 1vh;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    
+    .header__div__centro__img {
+        max-width: 132vh;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+    
+    .header h2 {
+        color: white;
+        size: 24px;
+        line-height: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 20%;
+        left: 45%;
+        overflow-y: hidden;
+    }
+    
+    .nav__div__index ul {
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #212121;
+    }
+    
+    .nav__div__index li {
+        float: left;
+    }
+    
+    .nav__div__index li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .nav__div__index li :hover {
+        background-color: #9E9E9E;
+    }
+    
+    .nav__div__index {
+        margin-bottom: 2vh;
+    }
+    
+    .main__div__welcome1,
+    .main__div__welcome2 {
+        float: left;
+        width: 50%;
+        overflow-wrap: normal;
+    }
+    
+    .main__div__welcome1>h1,
+    .main__div__welcome1>p {
+        padding: 6%;
+        margin: auto;
+        text-align: justify;
+    }
+    
+    .main__div__welcome2>img {
+        max-width: 100%;
+        padding: 2%;
+    }
+    
+    .main__div__welcome:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .main__services__div__h2 {
+        text-align: center;
+    }
+    
+    .main__div__servicios__1 {
+        float: left;
+        width: 50%;
+        overflow-wrap: normal;
+    }
+    
+    .main__div__servicios__1>img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        padding: 2%;
+    }
+    
+    .main__div__servicios__1>h3 {
+        text-align: center;
+        padding-top: 15%;
+        margin: 15%;
+        text-transform: uppercase;
+    }
+    
+    .main__div__servicios__background__gris {
+        background-color: #BDBDBD;
+    }
+    
+    .main__div__servicios__background__azul {
+        background-color: #C5CAE9;
+    }
+    
+    .main__div__servicios__background__blanco {
+        background-color: white;
+    }
+    
+    .main__div__servicios__background__negro {
+        background-color: #3F51B5;
+    }
+    
+    .footer {
+        position: static;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: fit-content;
+        margin: 0%, 2%, 3%, 0%;
+        padding: 0%;
+        background-color: black;
+    }
+    
+    .footer>p {
+        margin: 1%;
+        padding: 0;
+        text-transform: uppercase;
+        color: white;
+        font-size: large;
+    }
+    
+    .footer__content>p {
+        margin: 0%;
+        padding: 1%;
+        text-align: center;
+    }
+    
+    .footer__nav__li__a {
+        text-decoration: none;
+        margin: 2%;
+        color: white;
+        font-size: large;
+    }
+    
+    .footer__p {
+        color: white;
+    }
+    
+    .main>h1 {
+        text-align: center;
+    }
+    
+    .main__articulos>h2,
+    .main__articulos>p {
+        padding: 2%;
+        border: 1% solid black;
+    }
+    
+    .main__video {
+        padding-left: 20%;
+    }
+    
+    .main__div__h1 {
+        text-transform: uppercase;
+        padding: 2%;
+    }
+    
+    .contacto__main__div {
+        padding: 2%;
+    }
+    
+    .contacto__main__div:after {
+        display: table;
+        clear: both;
+    }
+    
+    .contacto__main__div__1 {
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+    
+    .contacto__main__div__1>h2 {
+        margin-top: 8%;
+        text-transform: uppercase;
+        padding: 1%;
+    }
+    
+    .contacto__main__div__1>table {
+        margin-left: 37%;
+        border-color: #212121;
+        border: solid;
+        font-size: large;
+        padding: 1%;
+        font-style: italic;
+    }
